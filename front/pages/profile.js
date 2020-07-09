@@ -9,7 +9,7 @@ const profile = () => {
         <title>NodeBird</title>
         <link
           rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/antd/4.4.1/antd.compact.css"
+          href="https://cdnjs.cloudflare.com/ajax/libs/antd/3.23.1/antd.css"
         />
       </Head>
       <AppLayout>
