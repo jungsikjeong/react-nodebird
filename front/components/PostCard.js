@@ -5,6 +5,8 @@ import PropTypes from "prop-types";
 const PostCard = ({ post }) => {
   return (
     <Card
+      // createdAt은 기본적으로 날짜 객체임.
+      // 객체를 key에 넣으면 오류가 발생하기 때문에 +를 붙여 숫자로 형변환합니다.
       key={+post.createdAt}
       cover={post.img && <img alt="example" src={post.img} />}
       actions={[
