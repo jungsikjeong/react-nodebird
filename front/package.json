@@ -12,10 +12,15 @@
   "license": "ISC",
   "dependencies": {
     "antd": "^3.23.1",
-    "next": "^9.4.4",
+    "i": "^0.3.6",
+    "next": "^8.1.0",
+    "next-redux-wrapper": "^5.0.0",
+    "npm": "^6.14.6",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5"
   },
   "devDependencies": {
     "eslint": "^7.4.0",
